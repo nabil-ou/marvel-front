@@ -4,6 +4,7 @@
 * {
   font-family: "Carter One", cursive, Arial;
 }
+
 body {
   text-align: center;
   background-image: url("/background.png");
@@ -205,6 +206,7 @@ hr {
   text-align: center;
   padding: 40px;
 }
+
 .bulle .tip {
   width: 0;
   height: 0;
