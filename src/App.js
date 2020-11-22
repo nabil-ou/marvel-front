@@ -27,7 +27,6 @@ function App() {
   };
 
   const isFav = (item) => {
-    console.log(localStorage.getItem(item.id) !== null);
     return localStorage.getItem(item.id) !== null;
   };
 

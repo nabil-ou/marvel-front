@@ -1,4 +1,9 @@
 /* Other rules */
+@import url("https://fonts.googleapis.com/css?family=Carter+One");
+
+* {
+  font-family: "Carter One", cursive, Arial;
+}
 body {
   text-align: center;
   background-image: url("/background.png");

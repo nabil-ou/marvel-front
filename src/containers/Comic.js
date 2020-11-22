@@ -19,7 +19,6 @@ const Comic = ({ setMenu, addFav, removeFav, isFav, baseUrl }) => {
     try {
       const response = await axios.get(`${baseUrl}/Comic/${id}`);
       const characters = await axios.get(`${baseUrl}/Comic/${id}/characters`);
-      console.log(characters.data);
 
       setData(response.data.results[0]);
       setItemToFav({
